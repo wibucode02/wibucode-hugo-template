@@ -1,0 +1,9 @@
+main{
+    display: flex;
+}
+#content{
+    flex-basis: 75%;
+}
+aside{
+    flex-basis: 25%;
+}

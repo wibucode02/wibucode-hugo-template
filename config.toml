@@ -1,0 +1,8 @@
+baseURL = "https://tes-hugo.herokuapp.com/"
+languageCode = "id-id"
+title = "Wibucode"
+theme = "wibucode"
+summaryLength = 10
+paginate = 6
+[params]
+    Description = "Tempat belajar koding"

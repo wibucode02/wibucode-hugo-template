@@ -1,0 +1,57 @@
+<footer class="footer-area">
+    <div class="col-lg-12">
+        <div class="row mt-3">
+            <div class="col-lg-12">
+                <div class="f-widget mb-5 text-center">
+                    <a class="btn btn-widget"><i class="fab fa-instagram fa-lg"></i></a>
+                    <a class="btn btn-widget"><i class="fab fa-telegram-plane fa-lg"></i></a>
+                    <a class="btn btn-widget"><i class="fab fa-facebook-f fa-lg"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center menu">
+            <a href="">FAQs</a>
+            <a href="">About</a>
+            <a href="">Disclaimer</a>
+            <a href="">Contact</a>
+            <a href="">Arsip</a>
+        </div>
+        <div class="row text-white copyright">
+            <div class="col-lg-12">
+                <p class="text-center">© 2020 Wibucode - Made with <i class="fas fa-heart text-danger"></i> using Hugo
+                    0.78.2</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+
+<script src="/assets/js/jquery-3.5.1.slim.min.js"></script>
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    const buttonRight1 = document.getElementById("slideRight1");
+    const buttonLeft1 = document.getElementById("slideLeft1");
+    const item1 = document.getElementById("artk1");
+
+    const buttonRight2 = document.getElementById("slideRight2");
+    const buttonLeft2 = document.getElementById("slideLeft2");
+    const item2 = document.getElementById("artk2");
+
+    buttonRight1.onclick = function () {
+        //document.querySelector(".artk-item").animate( { scrollLeft: "+=90" }, 100, "easeOutQuad" );
+        item1.scrollLeft += 90;
+    };
+    buttonLeft1.onclick = function () {
+        item1.scrollLeft -= 90;
+    };
+
+    buttonRight2.onclick = function () {
+        item2.scrollLeft += 90;
+    };
+    buttonLeft2.onclick = function () {
+        item2.scrollLeft -= 90;
+    };
+</script>
+
+</html>

@@ -1,0 +1,265 @@
+{{ define "main" }}
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-5">Belajar Ngoding Gratis</h1>
+        <p class="lead">Jika tidak mulai dari sekarang, terus kapan lagi?</p>
+        <button class="btn btn-jumbotron">Mulai belalajar!</button>
+    </div>
+</div>
+<div class="wrapper mb-5">
+    <div class="container">
+        <section class="artikel" id="artikel">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h1>Artikel Terbaru</h1>
+                    <p>Apa saja sih yang baru di wibucode?</p>
+                </div>
+                <div class="section-body">
+                    <div class="row">
+                        {{ range (.Paginate (where .Site.RegularPages "Section" "posts")).Pages }}
+                        <div class="col-md-4 mb-5">
+                            <div class="card">
+                                <a href=" {{ .Permalink }} ">
+                                    <img src="/img/{{ .Params.featured_image }}" alt="" class="card-img-top">
+                                </a>
+                                <div class="card-body">
+                                    <h3 class="card-title"><a href=" {{ .Permalink }} ">{{ .Title }}</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        {{ end }}
+
+                        <div class="artikel-pagination">
+                            {{ template "_internal/pagination.html" . }}
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<div class="news-let">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6" style="padding: 20px  1px;">
+                <div class="news-header">
+                    <img src="assets/img/send-email.svg" alt="send-email">
+                    Newsletter
+                </div>
+                <p>Dapatkan informasi terbaru dari wibucode dengan berlangganan Newsletter.</p>
+                <form class="mt-5">
+                    <div class="form-group">
+                        <label for="nama">Nama</label>
+                        <input type="text" class="form-control" id="nama" placeholder="Nama Panggilan">
+                    </div>
+                    <div class="form-group" style="margin-top: 30px;">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Alamat Email">
+                    </div>
+                    <button class="btn btn-block btn-news mt-5">Daftar</button>
+                </form>
+                <p style="margin-top: 50px;">Atau ikuti kami melalui :</p>
+                <div class="news-widget mb-5 text-center">
+                    <a class="btn btn-widget"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a class="btn btn-widget"><i class="fab fa-telegram-plane fa-2x"></i></a>
+                    <a class="btn btn-widget"><i class="fab fa-facebook-f fa-2x"></i></a>
+                </div>
+            </div>
+            <div class="d-none d-lg-block">
+                <div class="col-lg-6" style="margin: 20px auto; padding: 20px;">
+                    <img src="assets/img/logo-news.svg" width="400px">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="wrapper mb-5">
+    <div class="container">
+        <section class="artk" id="artk">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h1>Artikel Berdasarkan Kategori</h1>
+                    <p>Baca artikel yang sesuai dengan minatmu</p>
+                </div>
+                <div class="section-body">
+                    <div class="artk-label">
+                        <h1>FrontEnd</h1>
+                        <div class="artk-item" id="artk1">
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-8 mb-5">
+                                <div class="card">
+                                    <a href="">
+                                        <img src="assets/img/artikel1.svg" alt="" class="card-img-top">
+                                    </a>
+                                    <div class="card-body">
+                                        <h3 class="card-title"><a href="">Belajar Membuat Sebuah Web Mengunakan
+                                                HTML,CSS,Javascript</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-8 mb-5">
+                                <div class="card">
+                                    <a href="">
+                                        <img src="assets/img/artikel1.svg" alt="" class="card-img-top">
+                                    </a>
+                                    <div class="card-body">
+                                        <h3 class="card-title"><a href="">Belajar Membuat Sebuah Web Mengunakan
+                                                HTML,CSS,Javascript</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-8">
+                                <div class="card">
+                                    <a href="">
+                                        <img src="assets/img/artikel1.svg" alt="" class="card-img-top">
+                                    </a>
+                                    <div class="card-body">
+                                        <h3 class="card-title"><a href="">Belajar Membuat Sebuah Web Mengunakan
+                                                HTML,CSS,Javascript</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-8">
+                                <div class="card">
+                                    <a href="">
+                                        <img src="assets/img/artikel1.svg" alt="" class="card-img-top">
+                                    </a>
+                                    <div class="card-body">
+                                        <h3 class="card-title"><a href="">Belajar Membuat Sebuah Web Mengunakan
+                                                HTML,CSS,Javascript</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-8">
+                                <div class="card">
+                                    <a href="">
+                                        <img src="assets/img/artikel1.svg" alt="" class="card-img-top">
+                                    </a>
+                                    <div class="card-body">
+                                        <h3 class="card-title"><a href="">Belajar Membuat Sebuah Web Mengunakan
+                                                HTML,CSS,Javascript</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-8">
+                                <div class="card">
+                                    <a href="">
+                                        <img src="assets/img/artikel1.svg" alt="" class="card-img-top">
+                                    </a>
+                                    <div class="card-body">
+                                        <h3 class="card-title"><a href="">Belajar Membuat Sebuah Web Mengunakan
+                                                HTML,CSS,Javascript</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button id="slideLeft1" class="btn btn-slidel float-left" type="button"><i
+                                class="ti-angle-left"></i></button>
+                        <button id="slideRight1" class="btn btn-slider float-right" type="button"><i
+                                class="ti-angle-right"></i></button>
+                    </div>
+                    <div class="artk-label">
+                        <h1>BackEnd</h1>
+                        <div class="artk-item" id="artk2">
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-8">
+                                <div class="card">
+                                    <a href="">
+                                        <img src="assets/img/artikel1.svg" alt="" class="card-img-top">
+                                    </a>
+                                    <div class="card-body">
+                                        <h3 class="card-title"><a href="">Belajar Membuat Sebuah Web Mengunakan
+                                                HTML,CSS,Javascript</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-8">
+                                <div class="card">
+                                    <a href="">
+                                        <img src="assets/img/artikel1.svg" alt="" class="card-img-top">
+                                    </a>
+                                    <div class="card-body">
+                                        <h3 class="card-title"><a href="">Belajar Membuat Sebuah Web Mengunakan
+                                                HTML,CSS,Javascript</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-8">
+                                <div class="card">
+                                    <a href="">
+                                        <img src="assets/img/artikel1.svg" alt="" class="card-img-top">
+                                    </a>
+                                    <div class="card-body">
+                                        <h3 class="card-title"><a href="">Belajar Membuat Sebuah Web Mengunakan
+                                                HTML,CSS,Javascript</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-8">
+                                <div class="card">
+                                    <a href="">
+                                        <img src="assets/img/artikel1.svg" alt="" class="card-img-top">
+                                    </a>
+                                    <div class="card-body">
+                                        <h3 class="card-title"><a href="">Belajar Membuat Sebuah Web Mengunakan
+                                                HTML,CSS,Javascript</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-8">
+                                <div class="card">
+                                    <a href="">
+                                        <img src="assets/img/artikel1.svg" alt="" class="card-img-top">
+                                    </a>
+                                    <div class="card-body">
+                                        <h3 class="card-title"><a href="">Belajar Membuat Sebuah Web Mengunakan
+                                                HTML,CSS,Javascript</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-8">
+                                <div class="card">
+                                    <a href="">
+                                        <img src="assets/img/artikel1.svg" alt="" class="card-img-top">
+                                    </a>
+                                    <div class="card-body">
+                                        <h3 class="card-title"><a href="">Belajar Membuat Sebuah Web Mengunakan
+                                                HTML,CSS,Javascript</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button id="slideLeft2" class="btn btn-slidel float-left" type="button"><i
+                                class="ti-angle-left"></i></button>
+                        <button id="slideRight2" class="btn btn-slider float-right" type="button"><i
+                                class="ti-angle-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="tentang container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-7 text-center mt-5" style="padding: 0px;">
+                    <div class="tentang-content" style="padding:10px">
+                        <h2>Tentang wibucode</h2>
+                        <p class="mt-5">Wibucode adalah komunitas Programmer dan UI/UX Designer Komunitas ini di
+                            bangun dengan tujuan agar Programmer dan UI/UX Designer dapat saling bekerjasama Dan
+                            juga berkontribusi bersama</p>
+                    </div>
+                    <div class="tentang-button">
+                        <button
+                            style="font-size: 14px; width: 160px;border-radius: 6px;height: 50px; margin-right: 20px;"
+                            class="text-center btn btn-outline-primary mb-0 mt-5" href="#">Gabung Chanel</button>
+                        <button style="font-size: 14px; width: 160px;border-radius: 6px;height: 50px;"
+                            class="text-center btn btn-primary mb-0 mt-5" href="#">Gabung Chat</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+
+{{ end }}

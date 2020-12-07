@@ -1,0 +1,78 @@
+{{ define "main" }}
+
+<div class="wrapper mb-5">
+    <div class="container">
+        <section class="" style="margin-top: 9em;" id="artikel">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8">
+                        <div class="card">
+                            <div class="card-body shadow-lg p-3">
+                                <p>{{ .Params.author }}  <small>{{  .Date.Format "02 Jan 2006"  }}</small> </p>
+                                <h2 class=" font-weight-bold">{{.Title}}
+                                </h2>
+                                <hr>
+                                <div>
+                                    {{ with .Params.tags }}
+                                    {{ range .}}
+                                    <span class=" badge badge-info"><a class=" text-white" href="/tags/{{ . | urlize }}">{{ . }}</a></span>
+                                    {{ end }}
+                                    {{ end }}
+                                </div>
+                                <br><br>
+                                <center>
+                                    <img style="max-width: 40em;" src="/img/{{ .Params.featured_image }}"
+                                        alt="" srcset="">
+                                </center>
+                                <br><br>
+                                {{ .Content }}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card mb-5">
+                            <div class="card-body">
+                                <span class=" font-weight-bold">News Later</span> <br>
+                                Dapatkan Informasi serta berita terbaru dari kami
+                                <br><br><br>
+                                <form action="">
+                                    <div class="form-group">
+                                        <label class=" font-weight-bold" for="">Nama</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class=" font-weight-bold" for="">Email</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <center>
+                                        <button type="submit" class=" btn btn-info">Kirim</button>
+                                    </center>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class=" mb-5">
+                            <img src="/img/ad1.png" alt="" srcset="">
+                        </div>
+
+                        <div class="card mb-5">
+                            <div class="card-header">
+                                Artikel Terbaru
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Cras justo odio</li>
+                                <li class="list-group-item">Dapibus ac facilisis in</li>
+                                <li class="list-group-item">Vestibulum at eros</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section>
+    </div>
+</div>
+
+{{end}}
