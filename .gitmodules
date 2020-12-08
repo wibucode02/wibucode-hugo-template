@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/wibucode-dev/wibucode-blog.git
+	branch = main

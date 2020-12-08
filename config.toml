@@ -1,4 +1,4 @@
-baseURL = "https://tes-hugo.herokuapp.com/"
+baseURL = "https://blog-wibucode.herokuapp.com/"
 languageCode = "id-id"
 title = "Wibucode"
 theme = "wibucode"
