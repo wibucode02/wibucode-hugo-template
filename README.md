@@ -15,3 +15,4 @@ Hugo Blog Wibu Code \
 - [  ] kode highliter
 - [  ] List tag
 - [  ] Diskus
+- [  ] Hal about
