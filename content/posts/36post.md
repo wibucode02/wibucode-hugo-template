@@ -7,6 +7,8 @@ featured_image: "EmWO3yIVcAAX0-d.jpeg"
 tags: 
 - html
 - css
+categories:
+- Back End
 ---
 
 
@@ -49,4 +51,17 @@ Incidunt perferendis beatae quidem est quam odit temporibus, non similique offic
 
 Facilis eos exercitationem, officiis neque architecto ea natus doloremque alias dolorum inventore accusantium ex consequatur mollitia impedit possimus, quibusdam sapiente voluptatum expedita ipsum reiciendis consequuntur fugiat pariatur, facere ipsa. Eveniet.
 
-Explicabo excepturi facilis temporibus iure nemo quas nulla similique quos fugiat soluta, dolores rem reprehenderit ipsum, quasi unde magnam repudiandae incidunt accusantium neque molestias nisi doloremque. Vel laudantium velit mollitia?
+Explicabo excepturi facilis temporibus iure nemo quas nulla similique quos fugiat soluta, dolores rem reprehenderit ipsum, quasi unde magnam repudiandae incidunt accusantium neque molestias nisi doloremque. Vel laudantium velit mollitia?a
+
+
+```html
+php artisan serve
+```
+
+```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```

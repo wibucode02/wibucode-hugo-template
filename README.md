@@ -8,11 +8,12 @@ Hugo Blog Wibu Code \
 ## Task
 
 
-- [  ] sidebar artikel terbaru
-- [  ] search
-- [  ] single responsive
-- [  ] kategori
-- [  ] kode highliter
-- [  ] List tag
-- [  ] Diskus
-- [  ] Hal about
+- [] search
+- [x] single responsive
+- [x] kategori
+- [x] kode highliter
+- [x] List tag
+- [x] Diskus
+- [x] Hal about
+- [x] Fix link
+- [] Fix link Lainnya

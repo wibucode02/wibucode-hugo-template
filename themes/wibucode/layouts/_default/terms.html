@@ -1,0 +1,83 @@
+{{ define "main" }}
+
+<div class="wrapper mb-5">
+    <div class="container">
+        <section class="artikel" id="artikel">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h1> {{ .Title }} </h1>
+
+                </div>
+                <div class="section-body">
+                    <div class="row">
+                        <div class="col">
+                            {{ if eq .Title "Tags" }}
+                                {{ range sort .Site.Taxonomies.tags }}
+                                <a href="{{ .Page.Permalink }}" class="m-1 btn btn-info">{{ .Page.Title }}<span
+                                        class=" badge badge-warning">{{ .Count }}</span> </a>
+                                {{ end }}
+                            {{ else }}
+                                {{ range sort .Site.Taxonomies.categories }}
+                                    <a href="{{ .Page.Permalink }}" class="m-1 btn btn-info">{{ .Page.Title }}<span
+                                            class=" badge badge-warning">{{ .Count }}</span> </a>
+                                    {{ end }}
+                            {{ end }}
+
+
+                            <a href="" class="m-1 btn btn-info">Lorem<span class=" badge badge-warning">3</span> </a>
+                            <a href="" class="m-1 btn btn-info">ipsum<span class=" badge badge-warning">3</span> </a>
+                            <a href="" class="m-1 btn btn-info">dolor<span class=" badge badge-warning">3</span> </a>
+                            <a href="" class="m-1 btn btn-info">sit<span class=" badge badge-warning">3</span> </a>
+                            <a href="" class="m-1 btn btn-info">amet<span class=" badge badge-warning">3</span> </a>
+                            <a href="" class="m-1 btn btn-info">consectetur<span class=" badge badge-warning">3</span>
+                            </a>
+                            <a href="" class="m-1 btn btn-info">adipisicing<span class=" badge badge-warning">3</span>
+                            </a>
+                            <a href="" class="m-1 btn btn-info">elit.<span class=" badge badge-warning">3</span> </a>
+                            <a href="" class="m-1 btn btn-info">Laboriosam<span class=" badge badge-warning">3</span>
+                            </a>
+                            <a href="" class="m-1 btn btn-info">exercitationem,<span
+                                    class=" badge badge-warning">3</span> </a>
+                            <a href="" class="m-1 btn btn-info">facere<span class=" badge badge-warning">3</span> </a>
+                            <a href="" class="m-1 btn btn-info">consequatur<span class=" badge badge-warning">3</span>
+                            </a>
+                            <a href="" class="m-1 btn btn-info">corrupti<span class=" badge badge-warning">3</span> </a>
+                            <a href="" class="m-1 btn btn-info">quibusdam<span class=" badge badge-warning">3</span>
+                            </a>
+                            <a href="" class="m-1 btn btn-info">minima<span class=" badge badge-warning">3</span> </a>
+                            <a href="" class="m-1 btn btn-info">sunt<span class=" badge badge-warning">3</span> </a>
+                            <a href="" class="m-1 btn btn-info">enim<span class=" badge badge-warning">3</span> </a>
+                            <a href="" class="m-1 btn btn-info">minus<span class=" badge badge-warning">3</span> </a>
+                            <a href="" class="m-1 btn btn-info">nulla<span class=" badge badge-warning">3</span> </a>
+                            <a href="" class="m-1 btn btn-info">modi<span class=" badge badge-warning">3</span> </a>
+                            <a href="" class="m-1 btn btn-info">magnam<span class=" badge badge-warning">3</span> </a>
+                            <a href="" class="m-1 btn btn-info">quaerat<span class=" badge badge-warning">3</span> </a>
+                            <a href="" class="m-1 btn btn-info">illo?<span class=" badge badge-warning">3</span> </a>
+                            <a href="" class="m-1 btn btn-info">Quaerat<span class=" badge badge-warning">3</span> </a>
+                            <a href="" class="m-1 btn btn-info">quas<span class=" badge badge-warning">3</span> </a>
+                            <a href="" class="m-1 btn btn-info">consectetur<span class=" badge badge-warning">3</span>
+                            </a>
+                            <a href="" class="m-1 btn btn-info">neque<span class=" badge badge-warning">3</span> </a>
+                            <a href="" class="m-1 btn btn-info">ducimus<span class=" badge badge-warning">3</span> </a>
+                            <a href="" class="m-1 btn btn-info">sunt<span class=" badge badge-warning">3</span> </a>
+                            <a href="" class="m-1 btn btn-info">adipisci?<span class=" badge badge-warning">3</span>
+                            </a>
+                        </div>
+
+
+
+
+                        <div class="artikel-pagination">
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+{{end}}

@@ -87,154 +87,27 @@
                 </div>
                 <div class="section-body">
                     <div class="artk-label">
-                        <h1>FrontEnd</h1>
-                        <div class="artk-item" id="artk1">
+                        {{ range $key, $taxonomy := .Site.Taxonomies.categories }}
+                        <h1 class="nama-kategori">{{ $key }}</h1>
+                        <div class="artk-item" id="artk{{$key}}">
+                            {{ range $taxonomy.Pages }}
                             <div class="col-lg-3 col-md-4 col-sm-6 col-8 mb-5">
                                 <div class="card">
-                                    <a href="">
-                                        <img src="assets/img/artikel1.svg" alt="" class="card-img-top">
+                                    <a href="{{ .Permalink}}">
+                                        <img src="/img/{{ .Params.featured_image }}" alt="" class="card-img-top">
                                     </a>
                                     <div class="card-body">
-                                        <h3 class="card-title"><a href="">Belajar Membuat Sebuah Web Mengunakan
-                                                HTML,CSS,Javascript</a></h3>
+                                        <h3 class="card-title"><a href="{{ .Permalink}}">{{ .Title }}</a></h3>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-4 col-sm-6 col-8 mb-5">
-                                <div class="card">
-                                    <a href="">
-                                        <img src="assets/img/artikel1.svg" alt="" class="card-img-top">
-                                    </a>
-                                    <div class="card-body">
-                                        <h3 class="card-title"><a href="">Belajar Membuat Sebuah Web Mengunakan
-                                                HTML,CSS,Javascript</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-sm-6 col-8">
-                                <div class="card">
-                                    <a href="">
-                                        <img src="assets/img/artikel1.svg" alt="" class="card-img-top">
-                                    </a>
-                                    <div class="card-body">
-                                        <h3 class="card-title"><a href="">Belajar Membuat Sebuah Web Mengunakan
-                                                HTML,CSS,Javascript</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-sm-6 col-8">
-                                <div class="card">
-                                    <a href="">
-                                        <img src="assets/img/artikel1.svg" alt="" class="card-img-top">
-                                    </a>
-                                    <div class="card-body">
-                                        <h3 class="card-title"><a href="">Belajar Membuat Sebuah Web Mengunakan
-                                                HTML,CSS,Javascript</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-sm-6 col-8">
-                                <div class="card">
-                                    <a href="">
-                                        <img src="assets/img/artikel1.svg" alt="" class="card-img-top">
-                                    </a>
-                                    <div class="card-body">
-                                        <h3 class="card-title"><a href="">Belajar Membuat Sebuah Web Mengunakan
-                                                HTML,CSS,Javascript</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-sm-6 col-8">
-                                <div class="card">
-                                    <a href="">
-                                        <img src="assets/img/artikel1.svg" alt="" class="card-img-top">
-                                    </a>
-                                    <div class="card-body">
-                                        <h3 class="card-title"><a href="">Belajar Membuat Sebuah Web Mengunakan
-                                                HTML,CSS,Javascript</a></h3>
-                                    </div>
-                                </div>
-                            </div>
+                            {{ end }}
                         </div>
-                        <button id="slideLeft1" class="btn btn-slidel float-left" type="button"><i
+                        <button id="slideLeft{{$key}}" class="btn btn-slidel float-left" type="button"><i
                                 class="ti-angle-left"></i></button>
-                        <button id="slideRight1" class="btn btn-slider float-right" type="button"><i
+                        <button id="slideRight{{$key}}" class="btn btn-slider float-right" type="button"><i
                                 class="ti-angle-right"></i></button>
-                    </div>
-                    <div class="artk-label">
-                        <h1>BackEnd</h1>
-                        <div class="artk-item" id="artk2">
-                            <div class="col-lg-3 col-md-4 col-sm-6 col-8">
-                                <div class="card">
-                                    <a href="">
-                                        <img src="assets/img/artikel1.svg" alt="" class="card-img-top">
-                                    </a>
-                                    <div class="card-body">
-                                        <h3 class="card-title"><a href="">Belajar Membuat Sebuah Web Mengunakan
-                                                HTML,CSS,Javascript</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-sm-6 col-8">
-                                <div class="card">
-                                    <a href="">
-                                        <img src="assets/img/artikel1.svg" alt="" class="card-img-top">
-                                    </a>
-                                    <div class="card-body">
-                                        <h3 class="card-title"><a href="">Belajar Membuat Sebuah Web Mengunakan
-                                                HTML,CSS,Javascript</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-sm-6 col-8">
-                                <div class="card">
-                                    <a href="">
-                                        <img src="assets/img/artikel1.svg" alt="" class="card-img-top">
-                                    </a>
-                                    <div class="card-body">
-                                        <h3 class="card-title"><a href="">Belajar Membuat Sebuah Web Mengunakan
-                                                HTML,CSS,Javascript</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-sm-6 col-8">
-                                <div class="card">
-                                    <a href="">
-                                        <img src="assets/img/artikel1.svg" alt="" class="card-img-top">
-                                    </a>
-                                    <div class="card-body">
-                                        <h3 class="card-title"><a href="">Belajar Membuat Sebuah Web Mengunakan
-                                                HTML,CSS,Javascript</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-sm-6 col-8">
-                                <div class="card">
-                                    <a href="">
-                                        <img src="assets/img/artikel1.svg" alt="" class="card-img-top">
-                                    </a>
-                                    <div class="card-body">
-                                        <h3 class="card-title"><a href="">Belajar Membuat Sebuah Web Mengunakan
-                                                HTML,CSS,Javascript</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-sm-6 col-8">
-                                <div class="card">
-                                    <a href="">
-                                        <img src="assets/img/artikel1.svg" alt="" class="card-img-top">
-                                    </a>
-                                    <div class="card-body">
-                                        <h3 class="card-title"><a href="">Belajar Membuat Sebuah Web Mengunakan
-                                                HTML,CSS,Javascript</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <button id="slideLeft2" class="btn btn-slidel float-left" type="button"><i
-                                class="ti-angle-left"></i></button>
-                        <button id="slideRight2" class="btn btn-slider float-right" type="button"><i
-                                class="ti-angle-right"></i></button>
+                        {{ end }}
                     </div>
                 </div>
             </div>

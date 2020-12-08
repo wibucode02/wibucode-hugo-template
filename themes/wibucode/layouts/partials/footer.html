@@ -11,7 +11,7 @@
         </div>
         <div class="row justify-content-center menu">
             <a href="">FAQs</a>
-            <a href="">About</a>
+            <a href="/about">About</a>
             <a href="">Disclaimer</a>
             <a href="">Contact</a>
             <a href="">Arsip</a>
@@ -30,28 +30,46 @@
 <script src="/assets/js/bootstrap.bundle.min.js"></script>
 
 <script>
-    const buttonRight1 = document.getElementById("slideRight1");
-    const buttonLeft1 = document.getElementById("slideLeft1");
-    const item1 = document.getElementById("artk1");
 
-    const buttonRight2 = document.getElementById("slideRight2");
-    const buttonLeft2 = document.getElementById("slideLeft2");
-    const item2 = document.getElementById("artk2");
-
+    //kat 1
+    const buttonRight1 = document.getElementById("slideRightback-end");
+    const buttonLeft1 = document.getElementById("slideLeftback-end");
+    const item1 = document.getElementById("artkback-end");
     buttonRight1.onclick = function () {
-        //document.querySelector(".artk-item").animate( { scrollLeft: "+=90" }, 100, "easeOutQuad" );
         item1.scrollLeft += 90;
     };
     buttonLeft1.onclick = function () {
         item1.scrollLeft -= 90;
     };
 
+    //kat 2
+    const buttonRight2 = document.getElementById("slideRightfront-end");
+    const buttonLeft2 = document.getElementById("slideLeftfront-end");
+    const item2 = document.getElementById("artkfront-end");
     buttonRight2.onclick = function () {
         item2.scrollLeft += 90;
     };
     buttonLeft2.onclick = function () {
         item2.scrollLeft -= 90;
     };
+
+</script>
+<script>
+    const namaKat = nama => {
+        const nama2 = nama.split('-');
+
+        let nama3 = [];
+        nama2.forEach(nm => {
+            nama3.push(nm.charAt(0).toUpperCase() + nm.slice(1));
+        });
+        const nama4 = nama3.join(' ');
+
+        return nama4;
+    };
+
+    $('.nama-kategori').each(function () {
+        $(this).text(namaKat($(this).text()));
+    });
 </script>
 
 </html>
