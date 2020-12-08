@@ -13,4 +13,5 @@ Hugo Blog Wibu Code \
 - [  ] single responsive
 - [  ] kategori
 - [  ] kode highliter
-
+- [  ] List tag
+- [  ] Diskus
