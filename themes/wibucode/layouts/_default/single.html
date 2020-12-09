@@ -83,7 +83,8 @@
                             </div>
                             <ul class="list-group list-group-flush">
                                 {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
-                                <li class="list-group-item"> <a class=" text-dark" href="/categories/{{ $name }}">{{ $name }}</a> </li>
+                                <li class="list-group-item"> <a class=" text-dark"
+                                        href="/categories/{{ $name }}">{{ $name }}</a> </li>
                                 {{ end }}
                             </ul>
                         </div>
