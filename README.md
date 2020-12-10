@@ -16,4 +16,6 @@ Hugo Blog Wibu Code \
 - [x] Diskus
 - [x] Hal about
 - [x] Fix link
-- [] Fix link Lainnya
+- [ ] Fix link Lainnya
+- [ ] Road Map
+- [ ] Fitur News Later
