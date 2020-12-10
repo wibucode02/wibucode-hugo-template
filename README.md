@@ -17,5 +17,7 @@ Hugo Blog Wibu Code \
 - [x] Hal about
 - [x] Fix link
 - [ ] Fix link Lainnya
+- [ ] Taxonomi Bahasa
 - [ ] Road Map
+- [ ] Taxonomi Topik
 - [ ] Fitur News Later
