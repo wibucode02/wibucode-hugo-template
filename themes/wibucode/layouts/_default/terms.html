@@ -12,15 +12,25 @@
                     <div class="row">
                         <div class="col">
                             {{ if eq .Title "Tags" }}
-                                {{ range sort .Site.Taxonomies.tags }}
-                                <a href="{{ .Page.Permalink }}" class="m-1 btn btn-info">{{ .Page.Title }}<span
-                                        class=" badge badge-warning">{{ .Count }}</span> </a>
-                                {{ end }}
-                            {{ else }}
-                                {{ range sort .Site.Taxonomies.categories }}
-                                    <a href="{{ .Page.Permalink }}" class="m-1 btn btn-info">{{ .Page.Title }}<span
-                                            class=" badge badge-warning">{{ .Count }}</span> </a>
-                                    {{ end }}
+                            {{ range sort .Site.Taxonomies.tags }}
+                            <a href="{{ .Page.Permalink }}" class="m-1 btn btn-info">{{ .Page.Title }}<span
+                                    class=" badge badge-warning">{{ .Count }}</span> </a>
+                            {{ end }}
+                            {{ else if eq .Title "Categories" }}
+                            {{ range sort .Site.Taxonomies.categories }}
+                            <a href="{{ .Page.Permalink }}" class="m-1 btn btn-info">{{ .Page.Title }}<span
+                                    class=" badge badge-warning">{{ .Count }}</span> </a>
+                            {{ end }}
+                            {{ else if eq .Title "Topik" }}
+                            {{ range sort .Site.Taxonomies.topik }}
+                            <a href="{{ .Page.Permalink }}" class="m-1 btn btn-info">{{ .Page.Title }}<span
+                                    class=" badge badge-warning">{{ .Count }}</span> </a>
+                            {{ end }}
+                            {{ else if eq .Title "Bahasa" }}
+                            {{ range sort .Site.Taxonomies.bahasa }}
+                            <a href="{{ .Page.Permalink }}" class="m-1 btn btn-info">{{ .Page.Title }}<span
+                                    class=" badge badge-warning">{{ .Count }}</span> </a>
+                            {{ end }}
                             {{ end }}
 
 

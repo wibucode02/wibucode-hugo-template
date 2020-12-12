@@ -1,7 +1,7 @@
 ---
 author: "Wibucode"
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "38post"
+date: 2020-12-12T23:26:43+07:00
 draft: true
 featured_image: "bocchi4-450x300.jpg"
 tags: 

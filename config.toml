@@ -6,3 +6,8 @@ summaryLength = 10
 paginate = 6
 [params]
     Description = "Tempat belajar koding"
+[taxonomies]
+    category = "categories"
+    tag = "tags"
+    topik = "topik"
+    bahasa = "bahasa"

@@ -17,3 +17,10 @@ search
 single responsive
 kategori
 kode highliter
+
+#tutor
+install hugo : petanikode
+buat artikel
+tutor makrdonwn : petanikode
+penjelasan taxonomies
+post
