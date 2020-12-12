@@ -87,7 +87,7 @@ Dan itu semua wajib ada isinya.
 - Kemudian buka command line/terminal/cmd
 - ketik `git add .` lalu `git commit -m "update"` kemudian `git push`
 - lalu ketik `hugo`
-- setelah itu `cd/public`
+- setelah itu `cd public`
 - lalu ketik `git add .` lalu `git commit -m "update"` kemudian `git push`
 - Tunggu sekitar 2 - 3 menit. Selesai.
 
