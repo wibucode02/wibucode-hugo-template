@@ -37,6 +37,7 @@ Untuk cara penginstalan hugo sendiri bisa dilihat pada web berikut : [linux](htt
 &nbsp;
 ## Buat Artikel
 Sebelumnya clone dulu repo ini.  
+Jika sebelumnya sudah pernak di-clone. lakukan `git pull` dulu  
 Untuk membuat artikel pertama masuk ke direktori `wibucode-blog-hugo`, lalu setelah itu buka command line/terminal/cmd, ketikan `hugo new posts/nama-post.md` lalu enter.  
 Akan ada file baru pada folder `contents/posts`. Nah disinilah tempat menulis artikel. Artikel ditulis dengan menggunakan bahasa markdown.  
 Untuk melihat webnya secara lokal bisa dengan perintah `hugo server`. Lalu pada url browser ketika `localhost:1313`
