@@ -1,12 +1,12 @@
 {{ define "main" }}
 
-<div class="wrapper mb-5">
-    <div class="container">
-        <section class="artikel" id="artikel">
+<br><br><br><br><br>
+    <div class="section-header text-center">
+        <h1>{{ .Title }}</h1>
+        <p>Apa saja sih yang kami buat di wibucode?</p>
+    </div>
+    <br><br>
             <div class="container">
-                <div class="section-header text-center">
-                    <h1>{{ .Title }}</h1>
-                </div>
                 <div class="section-body">
                     <div class="row">
                         {{ range .Paginator.Pages }}
@@ -32,8 +32,8 @@
 
                 </div>
             </div>
-        </section>
     </div>
-</div>
+
+
 
 {{end}}

@@ -2,7 +2,7 @@
 title: "36post"
 author: "Alice Violet"
 date: 2020-12-08T05:31:03+07:00
-draft: false
+draft: true
 featured_image: "EmWO3yIVcAAX0-d.jpeg"
 tags: 
 - html
