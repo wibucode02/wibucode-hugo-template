@@ -107,21 +107,21 @@ main {
    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
 }
 
+
 .btn-search {
    background: var(--primary2) !important;
    height: 35px;
    color: #fff !important;
 }
 
-.btn-search:hover {
-   box-shadow: var(--primary-shadow) !important;
-}
 
 .btn-search:focus,
 .btn-search:active {
-   box-shadow: var(--primary-shadow) !important;
+
    background: var(--primary) !important;
 }
+
+
 
 /* Jumbotron */
 .jumbotron {
@@ -322,7 +322,7 @@ main {
 
 .btn-widget:hover {
    background: #81C7D1 !important;
-   box-shadow: var(--primary-shadow) !important;
+
    transition: all 0.3s linear !important;
 }
 
@@ -443,12 +443,6 @@ main {
    font-size: 15px;
 }
 
-.menu a:hover,
-.menu a:focus,
-.menu a:active {
-   text-decoration: none;
-   color: #fff !important;
-}
 
 .copyright {
    font-size: 14px;
