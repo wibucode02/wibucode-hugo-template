@@ -18,7 +18,7 @@ topik:
 \
 <br/>
 
-Sebelum masuk ke pembahasan perlu saya ingatkan pada artikel ini tidak membahas cara install Hugo tersebut, tapi sebagai pengenlan mengenai **Hugo.** Anggap aja sebagai pemanasan sebelum ngoding.
+Sebelum masuk ke pembahasan perlu saya ingatkan pada artikel ini tidak membahas cara install Hugo tersebut, tapi sebagai pengenalan mengenai **Hugo.** Anggap aja sebagai pemanasan sebelum ngoding.
 
 Kata webnya sih **Hugo** itu "Kerangka kerja tercepat di dunia untuk membangun situs web" wow gila keren banget.
 
