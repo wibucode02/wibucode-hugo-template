@@ -27,7 +27,7 @@ Hugo Blog Wibu Code
 # Dokumentasi
 ## Persiapan Aplikasi
 Aplikasi - aplikasi yang harus di install yaitu:
-- Git
+- Git <br/>
   [Cara Install Git di Windows dan Linux](https://www.petanikode.com/git-install/)
 - Hugo  
 Untuk cara penginstalan hugo sendiri bisa dilihat pada web berikut : 
