@@ -20,7 +20,7 @@ Hugo Blog Wibu Code
 - [x] Path
 - [x] Taxonomi Topik
 - [ ] Fitur News Later
-- [ ] Buat Dokumentasi  
+- [ ] Buat Dokumentasi 
 
 
 <br><br>
@@ -28,7 +28,7 @@ Hugo Blog Wibu Code
 ## Persiapan Aplikasi
 Aplikasi - aplikasi yang harus di install yaitu:
 - Git <br/>
-  [Cara Install Git di Windows dan Linux](https://www.petanikode.com/git-install/)
+  Untuk cara penginstalan Git sendiri bisa dilihat pada situs [Windows dan Linux](https://www.petanikode.com/git-install/)
 - Hugo  
 Untuk cara penginstalan hugo sendiri bisa dilihat pada web berikut : 
 [Linux](https://www.petanikode.com/membuat-blog-dengan-hugo/), [Windows](https://brionz.blogspot.com/2017/08/cara-mudah-install-hugo-pada-windows-7-8-10.html), [MacOS](https://discourse.gohugo.io/t/howto-install-hugo-on-mac/768)
