@@ -3,7 +3,7 @@
 
 Hugo Blog Wibu Code
 
-<br><br>
+<br>
 
 # 🗒 Tasks
 
