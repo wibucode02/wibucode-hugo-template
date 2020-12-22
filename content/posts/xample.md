@@ -1,9 +1,10 @@
 ---
-title: "37post"
-author: "Alice Violet"
+author: "Nama Penulis"
+title: "Judul"
+description: "Deskripisi"
 date: 2020-12-09T05:30:39+07:00
 draft: true
-featured_image: "EmWO3yIVcAAX0-d.jpeg"
+featured_image: "gambar.jpeg"
 tags: 
 - html
 - css

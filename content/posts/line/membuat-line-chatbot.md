@@ -1,17 +1,16 @@
 ---
 author: "Andika Tulus Pangestu"
 title: "Membuat LINE Chatbot - Pengenalan"
+description: "LINE merupakan aplikasi pesan instant terpopuler di indonesia beberapa tahun terakhir."
 date: 2020-12-20T17:14:09+08:00
 draft: false
 featured_image: "membuat-chatbot-line.jpg"
 tags: 
-- Hugo
+- Line
 categories:
 - Front-end
-bahasa:
-- Golang
 topik:
-- Hugo
+- Bot-chat
 ---
 
 Siapa sih yang tak kenal aplikasi pesan instant **LINE**?

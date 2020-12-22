@@ -1,7 +1,9 @@
 ---
-tittle: "Apa kata mereka?"
+author: "Wibucode"
+title: "Apa kata mereka?"
+description: "Kumpulan para testimonials wibucode"
 date: 2020-12-08T03:38:23+07:00
-featured_image: "bocchi4-450x300.jpg"
+featured_image: "other.svg"
 draft: false
 
 ---
@@ -282,3 +284,8 @@ draft: false
 </div>
 
 </section>
+
+\
+\
+<br>
+Selengkapya di [www.instagram.com/wibucode](https://www.instagram.com/wibucode/)

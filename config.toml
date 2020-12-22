@@ -5,7 +5,7 @@ theme = "wibucode"
 summaryLength = 10
 paginate = 6
 [params]
-    Description = "Tempat belajar koding"
+    Description = "Komunitas Programmer dan UI/UX Designer"
 [taxonomies]
     category = "categories"
     tag = "tags"
