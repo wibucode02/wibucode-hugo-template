@@ -1,12 +1,11 @@
 
-# Readme
+# 📎 Readme
 
 Hugo Blog Wibu Code
 
 <br><br>
 
-# Task
-
+# 🗒 Tasks
 
 - [ ] search
 - [x] single responsive
@@ -27,26 +26,35 @@ Hugo Blog Wibu Code
 <br><br>
 # Dokumentasi
 ## Persiapan Aplikasi
-Aplikasi - aplikasi yang harus diinstall yaitu berikut:
+Aplikasi - aplikasi yang harus di install yaitu:
 - Git
+  [Cara Install Git di Windows dan Linux](https://www.petanikode.com/git-install/)
 - Hugo  
-Untuk cara penginstalan hugo sendiri bisa dilihat pada web berikut : [linux](https://www.petanikode.com/membuat-blog-dengan-hugo/), [windows](https://brionz.blogspot.com/2017/08/cara-mudah-install-hugo-pada-windows-7-8-10.html)
+Untuk cara penginstalan hugo sendiri bisa dilihat pada web berikut : 
+[Linux](https://www.petanikode.com/membuat-blog-dengan-hugo/), [Windows](https://brionz.blogspot.com/2017/08/cara-mudah-install-hugo-pada-windows-7-8-10.html), [MacOS](https://discourse.gohugo.io/t/howto-install-hugo-on-mac/768)
 
 
 
 &nbsp;
 ## Buat Artikel
-Sebelumnya clone dulu repo ini.  
-Jika sebelumnya sudah pernak di-clone. lakukan `git pull` dulu  
-Untuk membuat artikel pertama masuk ke direktori `wibucode-blog-hugo`, lalu setelah itu buka command line/terminal/cmd, ketikan `hugo new posts/nama-post.md` lalu enter.  
-Akan ada file baru pada folder `contents/posts`. Nah disinilah tempat menulis artikel. Artikel ditulis dengan menggunakan bahasa markdown.  
-Untuk melihat webnya secara lokal bisa dengan perintah `hugo server`. Lalu pada url browser ketika `localhost:1313`
+* Sebelumnya Clone dulu repo ini.  
+* Jika sebelumnya sudah pernah di-clone. lakukan `git pull` dulu  
+
+Untuk membuat artikel 
+* Pertama masuk ke direktori `wibucode-blog-hugo`
+* Lalu setelah itu buka command line/terminal/cmd, ketikan `hugo new posts/nama-post.md` lalu enter.  
+* Nanti akan ada file baru pada folder `contents/posts`. 
+* Nah disitulah tempat menulis artikel. ( Artikel ditulis dengan menggunakan bahasa markdown ) 
+* Untuk melihat webnya secara lokal bisa dengan perintah `hugo server`. 
+* Lalu pada url browser ketika `localhost:1313`atau klik [localhost](https://localhost:1313)
 
 
 &nbsp;
 ## Tutorial Markdown
-Untuk tutorial markdown silahkan lihat pada link berikut: [petanikode](https://www.petanikode.com/markdown-pemula/), [gistgithub](https://guides.github.com/features/mastering-markdown/), untuk enter ketik spasi dua kali pada akhir paragraf.
-Install extensi `markdownlint` di vccode untuk melihat preview markdown file.
+Untuk tutorial markdown silahkan lihat pada link berikut: 
+* [Petanikode](https://www.petanikode.com/markdown-pemula/), 
+* [Gits Github](https://guides.github.com/features/mastering-markdown/), untuk enter ketik spasi dua kali pada akhir paragraf.
+* Install extensions `markdownlint` di Visual Studio Code untuk melihat preview markdown file.
 
 
 &nbsp;
@@ -84,13 +92,13 @@ Dan itu semua wajib ada isinya.
 
 &nbsp;
 ## Mempublish Postingan
-- Untuk mempublish postingan pastikan `draft: false`
-- Kemudian buka command line/terminal/cmd
-- ketik `git add .` lalu `git commit -m "update"` kemudian `git push`
-- lalu ketik `hugo`
-- setelah itu `cd public`
-- lalu ketik `git add .` lalu `git commit -m "update"` kemudian `git push`
-- Tunggu sekitar 2 - 3 menit. Selesai.
+* Untuk mempublish postingan pastikan `draft: false`
+* Kemudian buka command line/terminal/cmd
+* ketik `git add .` lalu `git commit -m "update"` kemudian `git push`
+* lalu ketik `hugo`
+* setelah itu `cd public`
+* lalu ketik `git add .` lalu `git commit -m "update"` kemudian `git push`
+* Tunggu sekitar 2 - 3 menit. Selesai.
 
 &nbsp;
 ## Path
