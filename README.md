@@ -27,6 +27,10 @@ Hugo Blog Wibu Code
 # Dokumentasi
 ## Persiapan Aplikasi
 Aplikasi - aplikasi yang harus di install yaitu:
+- Visual Studio Code atau Sublime Text
+  Untuk cara penginstalan VSCode sendiri bisa dilihat di situs [VSCode For Linux](https://www.petanikode.com/text-editor-vscode/)
+  Untuk penggunaan markdown bisa install extensi [Markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+  Untuk yang menggunakan Sublime bisa ikuti cara di situs [Markdown for Sublime Text](https://adityadaniel.com/menulis-markdown-dengan-sublime-text/)
 - Git <br/>
   Untuk cara penginstalan Git sendiri bisa dilihat pada situs [Windows dan Linux](https://www.petanikode.com/git-install/)
 - Hugo  
@@ -104,3 +108,5 @@ Dan itu semua wajib ada isinya.
 ## Path
 Path dibuat agar materi menjadi terstruktur sehingga mempermudah user dalam belajar. Klik menu belajar untuk melihat path yang ada
 
+## Troubleshooting
+Jika mengalami kesulitan atau kurang memahami Dokumentasi, bisa berdiskusi di Grup Whatsapp Project Bareng Wibucode, dan untuk error coding bisa ditanyakan di [Kotakode](kotakode.com) atau [Stackoverflow](stackoverflow.com)
