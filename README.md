@@ -26,9 +26,9 @@
 
 ## Persiapan Aplikasi
 Aplikasi - aplikasi yang harus di install yaitu:
-- Visual Studio Code atau Sublime Text
-  Untuk cara penginstalan VSCode sendiri bisa dilihat di situs [VSCode For Linux](https://www.petanikode.com/text-editor-vscode/)
-  Untuk penggunaan markdown bisa install extensi [Markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+- Visual Studio Code atau Sublime Text <br/>
+  Untuk cara penginstalan VSCode sendiri bisa dilihat di situs [VSCode For Linux](https://www.petanikode.com/text-editor-vscode/) <br/>
+  Untuk penggunaan markdown bisa install extensi [Markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) <br/>
   Untuk yang menggunakan Sublime bisa ikuti cara di situs [Markdown for Sublime Text](https://adityadaniel.com/menulis-markdown-dengan-sublime-text/)
 - Git <br/>
   Untuk cara penginstalan Git sendiri bisa dilihat pada situs [Windows dan Linux](https://www.petanikode.com/git-install/)
