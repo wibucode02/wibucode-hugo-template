@@ -1,11 +1,9 @@
 
-# 📎 Readme
-
-Hugo Blog Wibu Code
+# Hugo Blog Wibu Code
 
 <br>
 
-# 🗒 Tasks
+## Tasks
 
 - [ ] search
 - [x] single responsive
@@ -24,7 +22,8 @@ Hugo Blog Wibu Code
 
 
 <br><br>
-# Dokumentasi
+# 💡 Dokumentasi
+
 ## Persiapan Aplikasi
 Aplikasi - aplikasi yang harus di install yaitu:
 - Visual Studio Code atau Sublime Text
