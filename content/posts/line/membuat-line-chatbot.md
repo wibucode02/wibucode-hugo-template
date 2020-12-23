@@ -2,10 +2,10 @@
 author: "Andika Tulus Pangestu"
 title: "Membuat LINE Chatbot - Pengenalan"
 date: 2020-12-20T17:14:09+08:00
-draft: false
+draft: true
 featured_image: "membuat-chatbot-line.jpg"
 tags: 
-- Hugo
+- Hugo 
 categories:
 - Front-end
 bahasa:
