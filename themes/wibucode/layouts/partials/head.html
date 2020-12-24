@@ -4,8 +4,12 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-   <title>Wibucode</title>
-   <meta content="Forum Programmer Dan UI/UX Designer" name="description" />
+   <title>{{ .Title }}</title>
+   {{ if .Description }}
+   <meta content="{{ .Description }}" name="description" />
+   {{ else }}
+   <meta content="{{ .Site.Params.Description }}" name="description" />
+   {{ end }}
    <meta content="Wibucode,Komunitas Programmer,Mgodonf" name="keywords" />
    <link rel="canonical" href="https://wibucode.com" />
    <meta property="og:locale" content="en_US" />
@@ -13,7 +17,7 @@
    <meta property="og:type" content="Website" />
    <meta property="og:url" content="https://wibucode.com" />
    <meta property="og:site_name" content="Wibucode" />
-   <meta property="og:image" content="https://1.bp.blogspot.com/-g29yXZocQ-I/X8RFC7vW_VI/AAAAAAAAC6s/ik4hjECCIqAQ0YTqBo2F9xSmrdUXAF_bgCLcBGAsYHQ/s320/website%2Bimage.png" />
+   <meta property="og:image" content="/img/{{ .Params.featured_image }}" />
    <meta name="google-site-verification" content="JdGyATti1eAnFEkxB5rB6wKn8fIT_qfBJTh8vFzfhI8" />
 
    <!-- Meta color -->

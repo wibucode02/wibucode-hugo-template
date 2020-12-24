@@ -1,6 +1,7 @@
 ---
 author: "Andre Rio"
 title: "Pengenalan Hugo"
+description: "Belajar mengenal Hugo, apa sih Hugo itu?"
 date: 2020-12-20T17:14:09+08:00
 draft: false
 featured_image: "pengenalan-hugo.svg"
@@ -11,7 +12,7 @@ categories:
 bahasa:
 - Golang
 topik:
-- Hugo
+- Pengenalan Hugo
 ---
 
 ### Apa sih Hugo itu? **"Hugo"** ya bukan **"Hago"** itu beda lagi.
