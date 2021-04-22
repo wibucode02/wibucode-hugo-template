@@ -3,11 +3,12 @@
 
 
 **Baca aturan sebelum di gunakan**
+
 Template hugo Wibucode merupakan hasil project yang kami buat dari awal mulai dari desain sampai proses build.
 
 - Tidak untuk di jual belikan
 - Tidak di gunakan untuk hal-hal negatif yang merugikan orang lain, kami sepenuhnya tidak bertanggung jawap
-- Tidak menghapus copyright WIbucode di footer
+- Tidak menghapus copyright Wibucode di footer
 
 
 <br>
