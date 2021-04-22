@@ -15,7 +15,6 @@ Template hugo Wibucode merupakan hasil project yang kami buat dari awal mulai da
 
 ## Tasks
 
-- [ ] search
 - [x] single responsive
 - [x] kategori
 - [x] kode highliter
@@ -23,12 +22,10 @@ Template hugo Wibucode merupakan hasil project yang kami buat dari awal mulai da
 - [x] Diskus
 - [x] Hal about
 - [x] Fix link
-- [ ] Fix link Lainnya
 - [x] Taxonomi Bahasa
 - [x] Path
 - [x] Taxonomi Topik
-- [ ] Fitur News Later
-- [ ] Buat Dokumentasi 
+- [X] Buat Dokumentasi 
 
 
 <br><br>
