@@ -1,4 +1,4 @@
-baseURL = "https://wibucode-template-lama.onrender.com/"
+baseURL = "https://demo-hugo-wibucode.onrender.com"
 languageCode = "id-id"
 title = "Wibucode"
 theme = "wibucode"
